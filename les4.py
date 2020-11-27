@@ -49,10 +49,8 @@ for item in range(100, 1001)
     if (item % 2) == 0:
         my_list.append(item)
 
-my_list = [item for item in range(100, 1001) if (item % 2) == 0]
 res = reduce(lambda x, y: x*y, my_list)
-new_arr = [el for el in range(20, 241) if (el % 20) ==0 or (el % 21) == 0]
-print(new_arr)
+print(res)
 
 # Задание 6: Реализовать два небольших скрипта:
 # а) итератор, генерирующий целые числа, начиная с указанного,
